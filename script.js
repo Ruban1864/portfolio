@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             const payload = { name, email, message };
-            const n8nWebhookUrl = "https://ruban5555.app.n8n.cloud/webhook-test/6de9c8ba-041f-4ec3-bfde-229f82ad38a3";
+            const n8nWebhookUrl = "https://ruban5555.app.n8n.cloud/webhook/6de9c8ba-041f-4ec3-bfde-229f82ad38a3";
 
             fetch(n8nWebhookUrl, {
                 method: "POST",
