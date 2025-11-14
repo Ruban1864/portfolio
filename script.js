@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             const payload = { name, email, message };
-            const n8nWebhookUrl = "https://ruban18181818.app.n8n.cloud/webhook-test/6de9c8ba-041f-4ec3-bfde-229f82ad38a3";
+            const n8nWebhookUrl = "https://rubanpass.app.n8n.cloud/webhook/6de9c8ba-041f-4ec3-bfde-229f82ad38a3";
 
             fetch(n8nWebhookUrl, {
                 method: "POST",
@@ -139,6 +139,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.head.appendChild(style);
 
  // Call it when page loads
-document.addEventListener("DOMContentLoaded", fetchLeetCodeStats);
+
 
 });
